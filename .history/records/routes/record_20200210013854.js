@@ -1,5 +1,6 @@
 import express from 'express';
 import RecordController from '../controllers/record';
+import secure from '../middlewares/secure';
 
 const router = express.Router();
 
