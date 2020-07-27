@@ -47,7 +47,9 @@ server.on('listening', () => {
 });
 
 app.get("/", (req, res) => {
-  res.send("Store Inventory API is LIVE");
+  res.send(`
+  <h2>Welcome to Store Inventory API. Check <a href="https://store-inventory.herokuapp.com/">here</a> for Documentation</h2>
+  `);
 });
 
 server.listen(port);
