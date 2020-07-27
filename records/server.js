@@ -48,7 +48,7 @@ server.on('listening', () => {
 
 app.get("/", (req, res) => {
   res.send(`
-  <h2>Welcome to Store Inventory API. Check <a href="https://store-inventory.herokuapp.com/">here</a> for Documentation</h2>
+  <h2>Welcome to Store Inventory API. Check <a href="https://app.swaggerhub.com/apis-docs/idmcalculus/Store-Inventory-API/1#/" target="_blank">here</a> for Documentation</h2>
   `);
 });
 
