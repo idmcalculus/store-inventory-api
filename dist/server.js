@@ -60,7 +60,7 @@ server.on('listening', function () {
 });
 
 _app["default"].get("/", function (req, res) {
-  res.send("Store Inventory API is LIVE");
+  res.send("\n  <h3>Welcome to Store Inventory API. Kindly check <a href=\"https://app.swaggerhub.com/apis-docs/idmcalculus/Store-Inventory-API/1#/\" target=\"_blank\">here</a> for Documentation</h3>\n  ");
 });
 
 server.listen(port);
